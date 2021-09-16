@@ -1,13 +1,4 @@
-/**
-* Template Name: DevFolio - v4.3.0
-* Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
@@ -815,10 +806,19 @@ a:hover {
 
 .about-mf .about-img {
   margin-bottom: 2rem;
+  margin-right: 4rem;
+  
+  
 }
 
 .about-mf .about-img img {
-  margin-left: 10px;
+  margin-left: 50px;
+  
+}
+
+.about-mf .about-img img {
+ 
+  margin-right: 50px;
 }
 
 @media (min-width: 767px) {
@@ -834,13 +834,14 @@ a:hover {
 
 .skill-mf .progress {
   background-color: #cde1f8;
-  margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .7rem;
+  margin: .5rem 0 1.5rem 0;
+  border-radius: 1.5rem;
+  height: .5rem;
 }
 
 .skill-mf .progress .progress-bar {
-  height: .7rem;
+  height: .5rem;
+  border-radius: 1.5rem;
   background-color: #0078ff;
 }
 
