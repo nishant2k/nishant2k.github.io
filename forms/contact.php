@@ -3,7 +3,7 @@
   $receiving_email_address = 'nishant.vedwal@outlook.com';
 
   
-  include( $php_email_form );
+
  
 
   $contact = new PHP_Email_Form;
