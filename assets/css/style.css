@@ -168,6 +168,11 @@ a:hover {
   position: relative;
 }
 
+.title-center {
+  font-size: 2rem;
+  position: relative;
+}
+
 .title-left:before {
   content: '';
   position: absolute;
@@ -213,12 +218,12 @@ a:hover {
   border-radius: 50%;
   line-height: 1.6;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px #ffffff;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
+  background-color: #FF0000;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
@@ -527,7 +532,7 @@ a:hover {
 
 .navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
   visibility: visible;
-  width: 80%;
+  width: 100%;
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
@@ -1115,11 +1120,11 @@ a:hover {
 # Contact
 --------------------------------------------------------------*/
 .footer-paralax {
-  padding: 4rem 0 0 0;
+  padding: 3rem 0 0 0;
 }
 
 .contact-mf {
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
 
 @media (min-width: 767px) {
